@@ -1,0 +1,60 @@
+body {
+    margin: 0;/*  ESPAÇO DO PARAGRAFO*/ 
+    padding-top: 800px; /* ESSA CONFIGURAÇÃO É PARTE DA COR NO QUADRADO body, encaixe de tela, */ 
+    text-align: center;/* alinhamento do texto no centro*/ 
+}
+
+.profile {/* LEMBRANDO QUE CHAMAMOS class PELO PONTO(.) class*/ 
+    border-radius: 50%;/* arredondamento das bordas*/ 
+}
+
+#welcome {/* LEMBRANDO QUE CHAMAMOS id pelo #*/ 
+    position: absolute; /* AQUI ESTOU DIVINDO A TELA COLORIDA COM A ESCRITA  mas quero que fique em cima tente aplicar a relative*/ 
+    bottom: 0; /*O DETALHE VERDE FICA MENOR  coloque 10 e veja a parte verde sobrepor*/ 
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%); /*a cor de fundo na sessao welcom tente mudar com o color pink*/ 
+    display: table; /* POSIÇÃO DA FOTO COLOCA FLEX PRA NOÇAO*/ 
+    width: 100%; /* largura*/ 
+    height: 100%; /* altura*/ 
+}
+
+h1 {
+
+    font-size: 40px; /*  TAMANHO DA LETRA*/ 
+    font-family: sans-serif; /* ESTILO DA LETRA*/ 
+    font-weight: bolder;/*estilo da fonte na parte do oi  ex mude para 900*/ 
+
+}
+
+#name {/* LEMBRANDO QUE CHAMAMOS id pelo #*/ 
+    font-size: 50px; /*aqui é o tamanho da letra, da parte eu sou... */ 
+    font-family: cursive; /*estilo da letra  tente mudar para fantasy*/ 
+
+}
+
+h2 {
+    font-size: 30px;/* aqui é o tamanho da letra eu sou o fundador lembrar de olhar no index quem é h2*/ 
+    font-weight: 300; /* acesse o site para ter noçao https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-weight */ 
+    font-family: monospace; /* estilo da fonte*/ 
+}
+
+#bio {/* LEMBRANDO QUE CHAMAMOS id pelo #*/ 
+    
+    font-family:  cursive; /* estilo da fonte*/ 
+    padding: 300px;/* margin estilo tente mudar para 300px mAQUI ESTÁ O ERRO DO OI */ 
+    
+}
+
+.line {/* LEMBRANDO QUE CHAMAMOS class PELO PONTO(.) class*/ 
+    height: 6px; /* o sublinhado em vermelho tente mudar para 100, altura*/ 
+    background-color: rgb(250, 0, 0);/* escolhendo a cor */ 
+    width: 70px;/* largura tente 6px*/ 
+    margin: 8px auto/* posição do sublinhado tente inherit ou 100px */  
+}
+
+.parallax-inner { /* quem esta na aqui ? estamos usando uma div e dividindo em 
+    blocos a celulas alinhadas verticalmente no meio e class cham por ponto*/ 
+
+    display: table-cell; /* deixa a foto respeitando a configuração predominante, tente colocar flex  */ 
+    vertical-align: middle;/* deixa toda a config acima  */ 
+    
+}
